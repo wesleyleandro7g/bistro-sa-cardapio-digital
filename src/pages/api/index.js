@@ -7,21 +7,29 @@ export const data = [
             {
                 id: 0,
                 title: 'Camarão alho e óleo',
+                description: '',
+                price: 1,
                 img: '/img/petiscos/Camarão alho e óleo.jpeg'
             },
             {
                 id: 1,
                 title: 'Carpaccio',
+                description: '',
+                price: 1,
                 img: '/img/petiscos/Carpaccio.jpeg'
             },
             {
                 id: 2,
                 title: 'Mousse de gorgonzola com crostata',
+                description: '',
+                price: 1,
                 img: '/img/petiscos/Mousse de gorgonzola com crostata.jpeg'
             },
             {
                 id: 3,
                 title: 'Porção de pastel',
+                description: '',
+                price: 1,
                 img: '/img/petiscos/Porção de pastel.jpeg'
             }
         ],
@@ -34,31 +42,43 @@ export const data = [
             {
                 id: 0,
                 title: 'Filé ao molho de vinho com talharim',
+                description: '',
+                price: 1,
                 img: '/img/carnes/Filé ao molho de vinho com talharim.jpeg'
             },
             {
                 id: 1,
                 title: 'Filé ao molho madeira',
+                description: '',
+                price: 1,
                 img: '/img/carnes/Filé ao molho madeira.jpeg'
             },
             {
                 id: 2,
                 title: 'Filé em cesta de queijo',
+                description: '',
+                price: 1,
                 img: '/img/carnes/Filé em cesta de queijo.jpeg'
             },
             {
                 id: 3,
                 title: 'Filé grelhado com legumes',
+                description: '',
+                price: 1,
                 img: '/img/carnes/Filé grelhado com legumes.jpeg'
             },
             {
                 id: 4,
                 title: 'Frango grelhado com salada',
+                description: '',
+                price: 1,
                 img: '/img/carnes/Frango grelhado com salada.jpeg'
             },
             {
                 id: 5,
                 title: 'Hamburguer artesanal',
+                description: '',
+                price: 1,
                 img: '/img/carnes/Hamburguer artesanal.jpeg'
             }
         ],
@@ -71,11 +91,15 @@ export const data = [
             {
                 id: 0,
                 title: 'Crepe de camarão',
+                description: '',
+                price: 1,
                 img: '/img/crepes/Crepe de camarão.jpeg'
             },
             {
                 id: 1,
                 title: 'Crepe de salmão',
+                description: '',
+                price: 1,
                 img: '/img/crepes/Crepe de salmão.jpeg'
             }
         ],
@@ -88,21 +112,29 @@ export const data = [
             {
                 id: 0,
                 title: 'Salmão ao molho gorgonzola',
+                description: '',
+                price: 1,
                 img: '/img/frutos do mar/Salmão ao molho gorgonzola.jpeg'
             },
             {
                 id: 1,
                 title: 'Salmão com crosta de gergelim',
+                description: '',
+                price: 1,
                 img: '/img/frutos do mar/Salmão com crosta de gergelim.jpeg'
             },
             {
                 id: 2,
                 title: 'Tilápia com alcaparras',
+                description: '',
+                price: 1,
                 img: '/img/frutos do mar/Tilápia com alcaparras.jpeg'
             },
             {
                 id: 3,
                 title: 'Vinagrete de polvo',
+                description: '',
+                price: 1,
                 img: '/img/frutos do mar/Vinagrete de polvo.jpeg'
             }
         ],
@@ -115,26 +147,36 @@ export const data = [
             {
                 id: 0,
                 title: 'Massa ao molho 4 queijos com isca de filé',
+                description: '',
+                price: 1,
                 img: '/img/massas/Massa ao molho 4 queijos com isca de filé.jpeg'
             },
             {
                 id: 1,
                 title: 'Massa ao molho 4 queijos',
+                description: '',
+                price: 1,
                 img: '/img/massas/Massa ao molho 4 queijos.jpeg'
             },
             {
                 id: 2,
                 title: 'Massa carbonara',
+                description: '',
+                price: 1,
                 img: '/img/massas/Massa carbonara.jpeg'
             },
             {
                 id: 3,
                 title: 'Massa com frutos do mar',
+                description: '',
+                price: 1,
                 img: '/img/massas/Massa com frutos do mar.jpeg'
             },
             {
                 id: 4,
                 title: 'Parmegiana',
+                description: '',
+                price: 1,
                 img: '/img/massas/Parmegiana.jpeg'
             }
         ],
@@ -147,31 +189,43 @@ export const data = [
             {
                 id: 0,
                 title: 'Risoto de alho poró com filé',
+                description: '',
+                price: 1,
                 img: '/img/risotos/Risoto de alho poró com filé.jpeg'
             },
             {
                 id: 1,
                 title: 'Risoto de camarão',
+                description: '',
+                price: 1,
                 img: '/img/risotos/Risoto de camarão.jpeg'
             },
             {
                 id: 2,
                 title: 'Risoto de funghi',
+                description: '',
+                price: 1,
                 img: '/img/risotos/Risoto de funghi.jpeg'
             },
             {
                 id: 3,
                 title: 'Risoto de parmesão com camarão empanado',
+                description: '',
+                price: 1,
                 img: '/img/risotos/Risoto de parmesão com camarão empanado.jpeg'
             },
             {
                 id: 4,
                 title: 'Risoto de pequi',
+                description: '',
+                price: 1,
                 img: '/img/risotos/Risoto de pequi.jpeg'
             },
             {
                 id: 5,
                 title: 'Risoto de rúcula com carne seca',
+                description: '',
+                price: 1,
                 img: '/img/risotos/Risoto de rúcula com carne seca.jpeg'
             }
         ],
@@ -184,11 +238,15 @@ export const data = [
             {
                 id: 0,
                 title: 'Salada de camarão',
+                description: '',
+                price: 1,
                 img: '/img/saladas/Salada de camarão.jpeg'
             },
             {
                 id: 1,
                 title: 'Salada de salmão',
+                description: '',
+                price: 1,
                 img: '/img/saladas/Salada de salmão.jpeg'
             }
         ],
@@ -201,6 +259,8 @@ export const data = [
             {
                 id: 0,
                 title: 'Pavê de abacaxi',
+                description: '',
+                price: 1,
                 img: '/img/sobremesas/Pavê de abacaxi.jpeg'
             }
         ],

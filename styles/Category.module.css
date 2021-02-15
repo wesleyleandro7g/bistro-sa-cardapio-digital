@@ -52,6 +52,10 @@
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
     width: 60%;
     padding: 5px;
 }
@@ -62,8 +66,24 @@
     margin: 0;
 }
 
+.info h6 {
+    font-family: Montserrat;
+    color: #666;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 .icon {
     color: #fff;
     font-size: 30px;
     margin-top: 10px;
+}
+
+.price h4 {
+    color: #666;
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
 }

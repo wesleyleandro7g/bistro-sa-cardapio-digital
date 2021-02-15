@@ -26,7 +26,13 @@ const Category = ({ category = {} }) => {
                             <img src={item.img} />
                         </div>
                         <div className={s.info}>
-                            <h3> {item.title} </h3>
+                            <div>
+                                <h3> {item.title} </h3>
+                                <h6> {item.describe} </h6>
+                            </div>                            
+                            <div className={s.price}>
+                                <h4> {item.price && Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(item.price)} </h4>
+                            </div>
                         </div>
                     </div>
                 ))}

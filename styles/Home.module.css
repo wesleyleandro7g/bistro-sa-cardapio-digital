@@ -1,3 +1,14 @@
+.background {
+  min-height: 100vh;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/img/Bistro Santo Antonio - bg.jpeg');
+  background-attachment: fixed;
+}
+
 .container {
   min-height: 100vh;
   padding: 0;
@@ -5,6 +16,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .main {

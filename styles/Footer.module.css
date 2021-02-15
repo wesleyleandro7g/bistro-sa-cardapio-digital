@@ -16,17 +16,17 @@
 
 .develop {
     font-size: 14px;
-    color: #737373;
+    color: #fff;
     font-family: Montserrat;
     margin: 5px 0;
 }
 
 .desencoder {
-    color: #004d99
+    color: #0066cc
 }
 
 .copy {
-    color: #666666;
+    color: #bfbfbf;
     margin: 10px 0;
 }
 
@@ -36,7 +36,7 @@
 
 .info h3 {
     font-size: 22px;
-    color: #333;
+    color: #f2f2f2;
     font-family: Montserrat;
     margin: 20px 5px;
 }
