@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    padding: 0 20%;
+}
+
+.contentLogo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.contentMenu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.title {
+    margin: 0 20px;
+    color: #CC6600;
+    font-family: PirateOne;
+    font-size: 30px;
+    transition: opacity 200ms;
+}
+
+.item {
+    margin: 0 20px;
+    color: #CC6600;
+    font-family: PirateOne;
+    font-size: 22px;
+    transition: opacity 200ms;
+}
+
+.item:hover {
+    opacity: 50%;
+}
+
+.menu {
+    padding: 8px 35px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #CC6600;
+    color: #fff;
+    font-family: PirateOne;
+    font-size: 22px;
+    transition: all 200ms;
+}
+
+.menu:hover {
+    opacity: 80%;
+}
+
+.icons {
+    font-size: 40px;
+    color: #c13584
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 20vh;
+    }
+    
+    .title {
+        display: none;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .bistroLogo {
+        height: 100%;
+    }
+}

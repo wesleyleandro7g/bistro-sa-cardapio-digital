@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    font-size: 30px;
+    color: #666666
+}
+
+.develop {
+    font-size: 14px;
+    color: #737373;
+    font-family: Montserrat;
+    margin: 5px 0;
+}
+
+.desencoder {
+    color: #004d99
+}
+
+.copy {
+    color: #666666;
+    margin: 10px 0;
+}
+
+.info {
+    display: flex;
+}
+
+.info h3 {
+    font-size: 22px;
+    color: #333;
+    font-family: Montserrat;
+    margin: 20px 5px;
+}
+
+@media (max-width: 600px) {
+    .info h3 {
+        display: none;
+    }
+}
