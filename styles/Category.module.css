@@ -3,24 +3,29 @@
 .container {
     width: 100%;
     height: 100vh;
+    position: relative;
+    margin-top: 9vh;
 }
 
 .header {
     width: 100%;
-    height: 20%;
+    height: 8vh;
     position: relative;
+    position: fixed;
+    top: 0;
 }
 
 .image {
     width: 100%;
     height: 100%;
+    filter: blur(3px);
 }
 
 .covered {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -29,7 +34,7 @@
 }
 
 .covered h2 {
-    margin: 10px;
+    margin: 0 10px;
     /* font-size: 16px; */
     font-family: Montserrat;
     color: #FFF;    
@@ -55,15 +60,21 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
     width: 60%;
     padding: 5px;
+}
+
+.info .infoTextContain {
+    text-align: start;
+    background-color: aquamarine;
 }
 
 .info h3 {
     font-family: Montserrat;
     color: #CC6600;
     margin: 0;
+    padding: 0;
 }
 
 .info h6 {
@@ -77,7 +88,13 @@
 .icon {
     color: #fff;
     font-size: 30px;
-    margin-top: 10px;
+    margin: 0 10px;
+}
+
+.price {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 .price h4 {

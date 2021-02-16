@@ -7,7 +7,6 @@ import { data } from '../api'
 import s from '../../../styles/Category.module.css'
 
 const Category = ({ category = {} }) => {
-    console.log(category)
     return(
         <div className={s.container}>
             <header className={s.header}>
@@ -28,7 +27,7 @@ const Category = ({ category = {} }) => {
                         <div className={s.info}>
                             <div>
                                 <h3> {item.title} </h3>
-                                <h6> {item.describe} </h6>
+                                <h6> {item.description} </h6>
                             </div>                            
                             <div className={s.price}>
                                 <h4> {item.price && Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(item.price)} </h4>
