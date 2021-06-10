@@ -12,6 +12,8 @@ const Hearder = () => {
                     src="/img/bistro-santo-antonio-logo.png"
                     alt="Logo Bistrô Santo Antonio"
                     className={s.bistroLogo}
+                    href="http://bistrosantoantonio.com.br/"
+                    target="_blank" 
                 />
             </div>
             <div className={s.contentMenu}>
@@ -23,7 +25,7 @@ const Hearder = () => {
                 </a>
             </div>
             <div className={s.headerMobile}>
-                <a href="https://www.instagram.com/bistrostoantonio/" target="_blank" rel="noopener noreferrer">
+                <a href="http://bistrosantoantonio.com.br/" target="_blank" rel="noopener noreferrer">
                     <div className={s.logoMobile}>
                         <h1 className={s.titleLarge}>Bistrô</h1>
                         <h1 className={s.titleSmall}>Santo Antônio</h1>
