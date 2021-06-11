@@ -23,7 +23,8 @@
 .title {
     margin: 0 20px;
     color: #fff;
-    font-family: PirateOne;
+    font-family: Montserrat;
+    font-weight: 500;
     font-size: 30px;
     transition: opacity 200ms;
 }

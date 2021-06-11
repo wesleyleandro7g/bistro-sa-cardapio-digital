@@ -12,7 +12,7 @@ const Category = ({ category = {} }) => {
             <header className={s.header}>
                 <img className={s.image} src={category.data[0].img} />
                 <div className={s.covered}>
-                    <Link href='/menu'>
+                    <Link href='/'>
                         <MdArrowBack className={s.icon} />
                     </Link>
                     <h2> {category.title} </h2>

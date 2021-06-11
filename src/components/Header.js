@@ -1,6 +1,5 @@
 import React from 'react'
 import { RiInstagramLine, RiPhoneFill, RiTimeFill } from 'react-icons/ri'
-// import Link from 'next/link'
 
 import s from '../../styles/Header.module.css'
 
